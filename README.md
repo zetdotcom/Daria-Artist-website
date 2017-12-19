@@ -1,4 +1,4 @@
 # DARIA ZADARNOWSKA ARTIST WEBSITE
 
-##check [website]
+## check [website]
 (https://dariaartist.github.io)
