@@ -1,0 +1,78 @@
+@import '../../styles/_variables.scss';
+
+.HomePage {
+    // display: flex;
+    height: 100vh;
+
+    h1 {
+        font-size: 30px;
+        padding: 5px 0;
+        border-bottom: 2px solid rgba(141, 152, 247, 0.938);
+    }
+}
+
+.mainPart{
+    display: flex;
+
+
+    // background: blue;
+    // border: 3px solid black;
+    // width: 80%;
+    // height: 100%;
+    
+    margin: 0 auto;
+    flex-direction: column;
+    align-self: center;
+
+
+    // .mainPhotos {
+    // /* The image used */
+    //     background-image: url(../../images/Daria-Studio.jpg) ;
+    
+    //     /* Full height */
+    //     position: absolute;
+    //     // z-index:-1;
+    //     background-size: cover;
+    //     background-position: center;
+    //     height: 100vh;
+    //     // background-attachment: fixed;
+    //     transition: all 5s ease-in-out;
+    //     display: flex;
+        
+
+
+
+    }
+
+    .statement {
+        background: rgba(0, 0, 0, 0.253);
+        
+        flex: 1 0 auto;
+        // align-content: flex-end;
+        color: $fontColorLight;
+        padding: 20px;
+        margin-bottom: 70px;
+        width: 100%;
+        align-self: flex-end;
+        box-shadow: 0 0 5px 1px rgba(185, 185, 185, 0.493);
+    }
+
+
+
+
+
+// <div className="mainPart">
+// <div className="mainPhotos">
+
+//   <div className="statement">
+//     <h2>Czesc, jestem Daria!! Jeste artyste
+//     Czesc, jestem Daria!! Jeste artyste
+//     Czesc, jestem Daria!! Jeste artyste
+//     Czesc, jestem Daria!! Jeste artyste</h2>
+  
+
+//   </div>
+  
+// </div>
+
+// </div>
