@@ -1,44 +1,45 @@
 import * as React from "react";
-import BgImages from "./BgImages";
-
-import BackgroundSlideshow from 'react-background-slideshow';
 
 
-import image1 from '../../images/Daria-Studio.jpg';
-import image2 from '../../images/daria.jpg';
-import image3 from '../../images/Daria-Portrait.jpg';
+
 
 import "./HomePage.css";
 
 const HomePage = () => {
-
+const img = ('../../images/Daria-Portrait.jpg')
   return (
-    <div>
+    
       <div className="HomePage">
-      
-          <div className="mainPart">
+      <h1>hasdasd</h1>
+        <ul className="cb-slideshow">
+          <li>
+            <span>Image 01</span>
+          </li>
 
-            <div className="mainPhotos">
-            
-            <div>
-            <BackgroundSlideshow  images={[ image1, image2, image3 ]} />
-          </div>
+          <li>
+            <span>Image 02</span>
+          </li> 
 
-              <div className="statement">
-                <h2>Czesc, jestem Daria!! Jeste artyste
-                Czesc, jestem Daria!! Jeste artyste
-                Czesc, jestem Daria!! Jeste artyste
-                Czesc, jestem Daria!! Jeste artyste</h2>
-              
-            
-              </div>
-              
-            </div>
+          <li>
+            <span>Image 03</span>
+          </li>
 
-          </div>
+          <li>
+            <span>Image 04</span>
+          </li>
+
+          <li>
+            <span>Image 05</span>
+          </li>
+
+        <li>
+          <span>Image 06</span>
+        </li>
+ 
+        </ul>
 
       </div>
-    </div>
+    
   );
 }
 
